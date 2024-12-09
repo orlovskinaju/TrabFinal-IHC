@@ -1,4 +1,4 @@
-/* Container principal */
+
 .feed-container {
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
     padding: 10px;
   }
   
-  /* Menu hambúrguer */
+
   .menu {
     position: absolute;
     top: 10px;
@@ -94,7 +94,7 @@
     cursor: pointer;
   }
   
-  /* Grid de livros */
+
   .books-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -132,13 +132,12 @@
     background-color: #ffd700;
     border-radius: 50%;
   }
-  
-  /* Botão voltar */
+ 
   .back-button1 {
-    padding: 10px; /* Ajuste o padding conforme necessário */
+    padding: 10px; 
     background-color: rgba(61, 87, 125, 0.6);
     color: #373737;
-    border: 1px solid rgba(255, 255, 255, 0.7); /* Borda com transparência */
+    border: 1px solid rgba(255, 255, 255, 0.7); 
     border-radius: 15px;
     font-size: 14px;
     cursor: pointer;
@@ -152,29 +151,28 @@
     background-color: #3D577D;
   }
   
-  /* Ajuste para a imagem do livro */
+ 
 .book-image {
-  width: 100px; /* Largura da imagem do livro */
-  height: 150px; /* Altura da imagem do livro */
-  object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
-  border-radius: 5px; /* Adiciona cantos arredondados */
-  margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+  width: 100px; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 5px; 
+  margin-bottom: 10px; 
 }
 
-/* Ajuste para a imagem das estrelas */
 .stars-image {
-  width: 100px; /* Define o tamanho da imagem das estrelas */
-  height: auto; /* Mantém a proporção */
-  display: block; /* Garante que ocupe o espaço correto */
+  width: 100px; 
+  height: auto; 
+  display: block; 
 }
 
-/* Ajuste para o botão de pesquisa */
+
 .search-icon {
-  width: 20px; /* Tamanho da imagem do botão de pesquisa */
+  width: 20px; 
   height: 20px;
 }
 
 .search-button img {
-  width: 10px; /* Ajuste para o tamanho desejado */
-  height: 10px; /* Mantém a proporção */
+  width: 10px; 
+  height: 10px; 
 }

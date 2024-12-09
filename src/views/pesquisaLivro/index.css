@@ -1,15 +1,15 @@
-/* Container principal */
+
 .pesquisa-livro-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #d9d9d9; /* Cor de fundo da tela */
+    background-color: #d9d9d9; 
     padding: 20px;
     font-family: Arial, sans-serif;
     position: relative;
 }
 
-/* Menu Hambúrguer */
+
 .menu {
     position: absolute;
     top: 10px;
@@ -23,7 +23,7 @@
     cursor: pointer;
 }
 
-/* Foto de perfil */
+
 .profile-container {
     position: absolute;
     top: 10px;
@@ -43,7 +43,7 @@
     object-fit: cover;
 }
 
-/* Barra de pesquisa */
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -70,14 +70,13 @@
     height: 20px;
 }
 
-/* Área do livro */
-/* Área do livro */
+
 .book-detail {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px; /* Puxa o livro mais para baixo */
-    position: relative; /* Necessário para posicionar o botão de favorito */
+    margin-top: 60px; 
+    position: relative; 
 }
 
 .book-image {
@@ -89,11 +88,11 @@
     position: relative;
 }
 
-/* Botão de favorito */
+
 .favorite-button {
     position: absolute;
-    top: -40px; /* Ajuste conforme necessário */
-    right: -50px; /* Ajuste conforme necessário */
+    top: -40px;
+    right: -50px; 
     background: none;
     border: none;
     cursor: pointer;
@@ -106,21 +105,21 @@
 
 .stars {
     display: flex;
-    align-items: center; /* Alinha verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-    gap: 10px; /* Espaçamento entre as estrelas */
-    margin-top: -70px; /* Ajuste conforme necessário */
-    margin-bottom: 10px; /* Espaçamento abaixo das estrelas */
+    align-items: center;
+    justify-content: center; 
+    gap: 10px; 
+    margin-top: -70px; 
+    margin-bottom: 10px; 
 }
 
 .stars img {
-    width: 190px; /* Ou o tamanho desejado */
+    width: 190px; 
     height: 190px;
-    object-fit: contain; /* Garante que a imagem mantenha proporção */
+    object-fit: contain; 
 }
 
 
-/* Botão Voltar */
+
 .back-button {
     margin-top: -50px;
     padding: 10px 20px;
@@ -136,10 +135,10 @@
     background-color: #2d4765;
 }
 
-/* Área de comentários */
+
 .comments-section {
     margin-top: 30px;
-    width: 100%; /* Ocupa toda a largura */
+    width: 100%; 
     max-width: 600px;
     background-color: rgba(61, 87, 125, 0.1);
     border: 1px solid #ddd;
@@ -155,7 +154,7 @@
 
 }
 
-/* Campo de entrada de comentários */
+
 .comment-input-container {
     display: flex;
     align-items: center;
@@ -183,7 +182,7 @@
     height: 20px;
 }
 
-/* Lista de comentários */
+
 .comments-list {
     display: flex;
     flex-direction: column;
@@ -198,7 +197,7 @@
     padding: 10px;
     background-color: rgba(61, 87, 125, 0.18);
     border-radius: 5px;
-    width: 100%; /* Ocupa toda a largura */
+    width: 100%; 
 }
 
 .user-info {
@@ -223,5 +222,5 @@
 .user-comment {
     font-size: 14px;
     color: #000000;
-    flex: 1; /* Para ajustar o texto à largura disponível */
+    flex: 1; 
 }

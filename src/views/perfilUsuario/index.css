@@ -1,4 +1,4 @@
-/* Container principal */
+
 .perfil-container {
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     position: relative;
   }
   
-  /* Foto de Perfil */
+
   .foto-perfil {
     width: 100px;
     height: 100px;
@@ -17,7 +17,7 @@
     margin-bottom: 20px;
   }
   
-  /* Campos de Informações */
+ 
   .info {
     width: 90%;
     max-width: 400px;
@@ -43,7 +43,7 @@
     gap: 10px;
   }
   
-  /* Ícones */
+
   .icone-senha,
   .icone-coracao {
     width: 20px;
@@ -51,7 +51,7 @@
     cursor: pointer;
   }
   
-  /* Botão Favoritos */
+
   .botao.favoritos {
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@
     background-color: rgba(61, 87, 125, 0.6);
   }
   
-  /* Botões de Ação */
+
   .botoes {
     display: flex;
     gap: 15px;
@@ -124,7 +124,7 @@
     background-color: #3d577d;
   }
   
-  /* Menu Hambúrguer */
+
   .menu {
     position: absolute;
     top: 10px;

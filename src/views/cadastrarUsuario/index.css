@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body {
   padding: 0;
 }
 
-/* Estilo principal do container */
+
 .container {
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@ body {
   background-color: #d9d9d9;
 }
 
-/* Título */
+
 .title {
   font-size: 18px;
   color: #2c2c2c;
@@ -34,27 +34,27 @@ body {
   margin-top:-0px;
 }
 
-/* Estilo para o container dos botões */
+
 .botao {
   display: flex;
-  justify-content: center; /* Alinha os botões ao centro */
-  gap: 10px; /* Espaço entre os botões */
+  justify-content: center; 
+  gap: 10px; 
   margin-top: 20px;
-  width: 70%; /* Faz o container ocupar todo o espaço disponível */
+  width: 70%; 
 }
 
 .submit-button {
-  flex: 1; /* Faz com que os botões ocupem o mesmo tamanho */
-  padding: 10px; /* Ajuste o padding conforme necessário */
+  flex: 1; 
+  padding: 10px; 
   background-color: rgba(61, 87, 125, 0.6);
   color: #373737;
-  border: 1px solid rgba(255, 255, 255, 0.7); /* Borda com transparência */
+  border: 1px solid rgba(255, 255, 255, 0.7); 
   border-radius: 15px;
   font-size: 14px;
   cursor: pointer;
   text-align: center;
   transition: background-color 0.3s ease;
-  width: 100px; /* Largura fixa */
+  width: 100px; 
 }
 
 .submit-button:hover {
@@ -63,15 +63,14 @@ body {
 }
 
 .logo {
-  width: 350px; /* Aumente a largura */
-  height: auto; /* Preserve a proporção da imagem */
-  font-size: 30px; /* Caso a logo seja texto */
+  width: 350px; 
+  height: auto;
+  font-size: 30px; 
   color: #2c2c2c;
-  margin: 50px 0 -40px; /* Aumente o espaço superior conforme necessário */
+  margin: 50px 0 -40px; 
 }
 
 
-/* Ícone */
 .icon {
   width: 350px;
   height: 350px;
@@ -79,7 +78,6 @@ body {
   margin-top: -80px;
 }
 
-/* Formulário */
 .form {
   display: flex;
   flex-direction: column;
@@ -93,15 +91,14 @@ body {
 .input {
   width: 100%;
   padding: 12px;
-  margin: 10px 0; /* Margem vertical entre os campos */
+  margin: 10px 0; 
   border-radius: 20px;
   border: 1px solid #ddd;
   font-size: 14px;
-  color: #fff; /* Cor do texto */
-  background-color: rgba(61, 87, 125, 0.6); /* Cor de fundo com 60% de opacidade */
+  color: #fff; 
+  background-color: rgba(61, 87, 125, 0.6); 
 }
 
-/* Container para o campo de senha */
 .password-container {
   display: flex;
   align-items: center;
@@ -120,9 +117,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30px; /* Largura fixa do botão */
-  height: 30px; /* Altura fixa do botão */
-  padding: 0; /* Remove o espaçamento interno */
+  width: 30px; 
+  height: 30px; 
+  padding: 0; 
 }
 
 .eye-button img {

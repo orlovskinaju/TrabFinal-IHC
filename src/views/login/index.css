@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
 }
-/* Estilo principal do container */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -19,7 +19,6 @@ body {
     background-color: #d9d9d9;
   }
   
-  /* Título */
   .title {
     font-size: 18px;
     color: #2c2c2c;
@@ -27,14 +26,13 @@ body {
     text-align: center;
   }
   
-  /* Logo do aplicativo */
+ 
   .logo {
     font-size: 30px;
     color: #2c2c2c;
     margin: 10px 0;
   }
   
-  /* Ícone */
   .icon {
     width: 350px;
     height: 350px;
@@ -42,7 +40,7 @@ body {
     margin-top: 50px;
   }
   
-  /* Formulário */
+
   .form {
     display: flex;
     flex-direction: column;
@@ -55,16 +53,15 @@ body {
   .input {
     width: 100%;
     padding: 12px;
-    margin: 10px 0; /* Margem vertical entre os campos */
+    margin: 10px 0; 
     border-radius: 20px;
     border: 1px solid #ddd;
     font-size: 14px;
-    color: #fff; /* Cor do texto */
-    background-color: rgba(61, 87, 125, 0.6); /* Cor de fundo com 60% de opacidade */
+    color: #fff; 
+    background-color: rgba(61, 87, 125, 0.6); 
   }
 
-  
-  /* Container para o campo de senha */
+
   .password-container {
     display: flex;
     align-items: center;
@@ -84,53 +81,53 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px; /* Largura fixa do botão */
-    height: 30px; /* Altura fixa do botão */
-    padding: 0; /* Remove o espaçamento interno */
+    width: 30px; 
+    height: 30px; 
+    padding: 0; 
   }
   
   .eye-button img {
-    width: 20px; /* Largura fixa para as imagens */
-    height: 20px; /* Altura fixa para as imagens */
-    object-fit: contain; /* Garante que as imagens não distorçam */
+    width: 20px; 
+    height: 20px; 
+    object-fit: contain; 
   }
     .link-container {
-      display: flex; /* Usar flexbox para o layout */
-      flex-direction: column; /* Colocar os itens em coluna */
-      align-items: center; /* Alinhar os itens ao centro horizontalmente */
-      justify-content: center; /* Alinhar os itens ao centro verticalmente (opcional) */
-      margin-top: 0px; /* Espaçamento acima dos botões */
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: center; 
+      margin-top: 0px; 
   }
   .link-button {
-    background-color: transparent; /* Sem cor de fundo */
-    color: #3D577D; /* Cor do texto */
-    padding: 5px; /* Espaçamento interno */
-    border: none; /* Sem borda */
-    border-radius: 5px; /* Bordas arredondadas */
-    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
-    text-decoration: underline; /* Adiciona sublinhado ao texto */
-    margin: 5px 0; /* Margem vertical para espaçamento */
+    background-color: transparent; 
+    color: #3D577D; 
+    padding: 5px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: underline; 
+    margin: 5px 0; 
   }
   
   .link-button:hover {
-    color: #0056b3; /* Cor do texto ao passar o mouse (opcional) */
+    color: #0056b3; 
   }
   
 
 .botao {
   display: flex;
-  justify-content: center; /* Alinha os botões ao centro */
-  gap: 10px; /* Espaço entre os botões */
+  justify-content: center; 
+  gap: 10px; 
   margin-top: 20px;
-  width: 70%; /* Faz o container ocupar todo o espaço disponível */
+  width: 70%; 
 }
 
 .submitbutton {
-  flex: 1; /* Faz com que os botões ocupem o mesmo tamanho */
-  padding: 10px; /* Ajuste o padding conforme necessário */
+  flex: 1; 
+  padding: 10px;
   background-color: rgba(61, 87, 125, 0.6);
   color: #373737;
-  border: 1px solid rgba(255, 255, 255, 0.7); /* Borda com transparência */
+  border: 1px solid rgba(255, 255, 255, 0.7); 
   border-radius: 15px;
   font-size: 14px;
   cursor: pointer;
