@@ -1,0 +1,145 @@
+/* Container principal */
+.favoritos-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9d9d9;
+    height: 100vh;
+    padding: 20px;
+    position: relative;
+  }
+  
+  /* Menu Hambúrguer */
+  .favoritos-menu {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .favoritos-menu-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .favoritos-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .favoritos-menu-button:focus + .favoritos-dropdown-menu,
+  .favoritos-dropdown-menu:hover {
+    display: block;
+  }
+  
+  .favoritos-dropdown-menu a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .favoritos-dropdown-menu a:hover {
+    color: #3d577d;
+  }
+  
+  /* Foto de Perfil */
+  .favoritos-profile-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .favoritos-profile-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .favoritos-profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  /* Título */
+  .favoritos-titulo {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: rgba(61, 87, 125, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Lista de Favoritos */
+  .favoritos-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .favoritos-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .favoritos-item-image {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .favoritos-item-coracao {
+    position: absolute;
+    top: -10px;
+    right: -25px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  .favoritos-item-avaliacao {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .favoritos-item-estrelas {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Botão Voltar */
+  .favoritos-botao-voltar {
+    margin-top: 400px;
+    padding: 10px 20px;
+    background-color: rgba(61, 87, 125, 0.6);
+    color: #373737;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .favoritos-botao-voltar:hover {
+    background-color: #3d577d;
+    color: white;
+  }

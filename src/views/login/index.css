@@ -1,0 +1,155 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Estilo principal do container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #d9d9d9;
+  }
+  
+  /* Título */
+  .title {
+    font-size: 18px;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  /* Logo do aplicativo */
+  .logo {
+    font-size: 30px;
+    color: #2c2c2c;
+    margin: 10px 0;
+  }
+  
+  /* Ícone */
+  .icon {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+  }
+  
+  /* Formulário */
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 330px;
+    margin-top: -200px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0; /* Margem vertical entre os campos */
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #fff; /* Cor do texto */
+    background-color: rgba(61, 87, 125, 0.6); /* Cor de fundo com 60% de opacidade */
+  }
+
+  
+  /* Container para o campo de senha */
+  .password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%; 
+    margin: 0 px ; 
+
+  }
+  
+  .eye-button {
+    position: absolute;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; /* Largura fixa do botão */
+    height: 30px; /* Altura fixa do botão */
+    padding: 0; /* Remove o espaçamento interno */
+  }
+  
+  .eye-button img {
+    width: 20px; /* Largura fixa para as imagens */
+    height: 20px; /* Altura fixa para as imagens */
+    object-fit: contain; /* Garante que as imagens não distorçam */
+  }
+    .link-container {
+      display: flex; /* Usar flexbox para o layout */
+      flex-direction: column; /* Colocar os itens em coluna */
+      align-items: center; /* Alinhar os itens ao centro horizontalmente */
+      justify-content: center; /* Alinhar os itens ao centro verticalmente (opcional) */
+      margin-top: 0px; /* Espaçamento acima dos botões */
+  }
+  .link-button {
+    background-color: transparent; /* Sem cor de fundo */
+    color: #3D577D; /* Cor do texto */
+    padding: 5px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao texto */
+    margin: 5px 0; /* Margem vertical para espaçamento */
+  }
+  
+  .link-button:hover {
+    color: #0056b3; /* Cor do texto ao passar o mouse (opcional) */
+  }
+  
+
+.botao {
+  display: flex;
+  justify-content: center; /* Alinha os botões ao centro */
+  gap: 10px; /* Espaço entre os botões */
+  margin-top: 20px;
+  width: 70%; /* Faz o container ocupar todo o espaço disponível */
+}
+
+.submitbutton {
+  flex: 1; /* Faz com que os botões ocupem o mesmo tamanho */
+  padding: 10px; /* Ajuste o padding conforme necessário */
+  background-color: rgba(61, 87, 125, 0.6);
+  color: #373737;
+  border: 1px solid rgba(255, 255, 255, 0.7); /* Borda com transparência */
+  border-radius: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  width: 110px;
+  height: 40px;
+}
+
+.submitbutton:hover {
+  background-color:  rgba(61, 87, 125, 0.9);
+  color: #fff;
+  width: 110px;
+  height: 40px;
+}
+  
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
